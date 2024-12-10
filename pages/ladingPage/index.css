@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    height: max-content;
     background-color: white;
 }
 
@@ -22,7 +23,7 @@ main{
     justify-content: center;
     width: 100%;
     height: max-content;
-    background-color: grey;
+    background-color: white;
 }
 
 /* Logo da Home */
@@ -87,7 +88,7 @@ main{
     pointer-events: none;
 }
 
-/* Apresentação */
+/* Sessão Apresentação */
 .home-presentation{
     display: flex;
     flex-direction: row;
@@ -96,7 +97,9 @@ main{
     width: 100%;
     height: 30rem;
     background-image: url("../../assets/images/background-home-presentation.jpg");
+    background-position: 100%;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 .cont-presentation-home{
     display: flex;
@@ -129,4 +132,68 @@ main{
     pointer-events: none;
     user-select: none;
     /* border: 0.1px, solid, red; */
+}
+
+/* Sessão Produto Mais Vendido */
+.best-seller-product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 7rem;
+    width: 100%;
+    height: 30rem;
+    background-color: white;
+}
+.cont-img-bestseller-product{
+    width: 23rem;
+    height: 23rem;
+    background-color: #B4B4B4;
+    margin-right: 4rem;
+}
+.cont-info-bestseller-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
+    height: 19rem;
+}
+.title-bestseller-product{
+    font-size: 30px;
+    font-family: "Martel Sans", serif;
+    font-weight: 800;
+    color: #4F5254;
+    margin-bottom: 0.5rem;
+    pointer-events: none;
+    user-select: none;
+}
+.description-bestseller-product{
+    width: 28rem;
+    font-size: 20px;
+    font-family: "Martel Sans", serif;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2.6rem;
+    pointer-events: none;
+    user-select: none;
+}
+.button-ver-mais-bestseller-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    width: 9.5rem;
+    height: 3.5rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.title-button-ver-mais-bestseller-product{
+    font-size: 20px;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    color: #4F5254;
+    pointer-events: none;
+    user-select: none;
 }
