@@ -7,7 +7,9 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 38px;
+    padding-right: 4.5rem;
     width: 100%;
     height: 4.8rem;
     background-color: white;
@@ -23,13 +25,108 @@ main{
     background-color: grey;
 }
 
+/* Logo da Home */
+.cont-logo-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    /* border: 0.1px, solid, red; */
+}
+.title-logo-home{
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    font-size: 28px;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Navegação da Home */
+.navigation-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 70%;
+    /* border: 0.1px, solid, red; */
+}
+.item-navigations-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+    height: max-content;
+    /* border: 0.1px, solid, blue; */
+}
+.title-navigations-home{
+    font-family: "Martel Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Midia da Home */
+.cont-media-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 6rem;
+    height: max-content;
+    /* border: 0.1px, solid, red; */
+}
+.icons-media{
+    width: 2.3rem;
+    height: 2.3rem;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Apresentação */
 .home-presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 7.6rem;
     width: 100%;
     height: 30rem;
     background-image: url("../../assets/images/background-home-presentation.jpg");
     background-size: 100%;
 }
+.cont-presentation-home{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 11.5rem;
 
-.cont-logo-home{
-    
+    /* border: 0.1px, solid, red; */
+}
+.title-presentation-home{
+    height: 3.5rem;
+    font-family: "Martel Sans", serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #7A0000;
+    pointer-events: none;
+    user-select: none;
+}
+.line-presentation-home{
+    border: 1.8px, solid, #7A0000;
+    border-radius: 2px;
+    width: 20%;
+    margin-bottom: 25px;
+}
+.text-presentation-home{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Martel Sans", serif;
+    pointer-events: none;
+    user-select: none;
+    /* border: 0.1px, solid, red; */
 }
