@@ -144,13 +144,13 @@ main{
     padding-left: 7rem;
     width: 100%;
     height: 30rem;
+    gap: 4rem;
     background-color: white;
 }
 .cont-img-bestseller-product{
     width: 23rem;
     height: 23rem;
     background-color: #B4B4B4;
-    margin-right: 4rem;
 }
 .img-bestseller-product{
     width: 100%;
@@ -199,6 +199,165 @@ main{
 }
 .title-button-ver-mais-bestseller-product{
     font-size: 20px;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    color: #4F5254;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Background 1 home */
+.cont-back1-home{
+    width: 100%;
+    height: 6rem;
+}
+.background-back1-home{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/* Produtos Lançamento */
+.new-product-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 45rem;
+}
+.cont-info-new-products{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 80%;
+    height: 6rem;
+}
+.cont-title-new-products{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: max-content;
+    height: 100%;
+}
+.title-new-products{
+    font-size: 35px;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    color: #4F5254;
+    pointer-events: none;
+    user-select: none;
+}
+.cont-seeall-new-products{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40%;
+    height: 70%;
+}
+.button-seeall-new-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    cursor: pointer;
+}
+.title-seeall-new-products{
+    width: 5.8rem;
+    height: 1.6rem;
+    font-size: 20px;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    color: #4F5254;
+    pointer-events: none;
+    user-select: none;
+}
+.line-seeall-new-products{
+    border: 1.5px, solid, #4F5254;
+    width: 5.8rem;
+    margin-right: 6px;
+}
+.cont-main-new-products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    width: 100%;
+    height: 40rem;
+}
+.card-product-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    width: 21%;
+    height: 80%;
+    padding-top: 20px;
+}
+.cont-img-new-products{
+    width: 20rem;
+    height: 20rem;
+    background-color: #B4B4B4;
+    border: 0.1px, solid #7A0000;
+    cursor: pointer;
+}
+.cont-img-new-products:hover ~ .title-product-new{
+    border-bottom-color: #7A0000;
+}
+.img-new-products{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.title-product-new{
+    width: max-content;
+    height: 2.2rem;
+    font-size: 25px;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    color: #7A0000;
+    user-select: none;
+    cursor: pointer;
+    border: 1.5px, solid, transparent;
+}
+.title-product-new:hover{
+    border-bottom-color: #7A0000;
+}
+.description-new-product{
+    width: 100%;
+    font-size: 15px;
+    font-family: "Martel Sans", serif;
+    font-weight: 600;
+    color: black;
+    user-select: none;
+    cursor: pointer;
+}
+.description-new-product:hover ~ .title-product-new{
+    border-bottom-color: #7A0000;
+}
+
+/* Sessão Ofertas */
+
+.cont-title-off-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+    height: 100%;
+}
+.title-off-products{
+    font-size: 35px;
     font-family: "Martel Sans", serif;
     font-weight: 900;
     color: #4F5254;
