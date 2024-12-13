@@ -26,6 +26,22 @@ main{
     background-color: white;
 }
 
+/* Classes Globais Home */
+.title-section-home{
+    font-size: 32px;
+    font-family: "Martel Sans", serif;
+    font-weight: 900;
+    color: #4F5254;
+    pointer-events: none;
+    user-select: none;
+}
+.image-card-home{
+    width: 80%;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 /* Logo da Home */
 .cont-logo-home{
     display: flex;
@@ -151,6 +167,7 @@ main{
     width: 23rem;
     height: 23rem;
     background-color: #B4B4B4;
+    border: 1px, solid, #7A0000;
 }
 .img-bestseller-product{
     width: 100%;
@@ -170,7 +187,7 @@ main{
     font-size: 30px;
     font-family: "Martel Sans", serif;
     font-weight: 800;
-    color: #4F5254;
+    color: #7A0000;
     margin-bottom: 0.5rem;
     pointer-events: none;
     user-select: none;
@@ -243,14 +260,6 @@ main{
     justify-content: flex-end;
     width: max-content;
     height: 100%;
-}
-.title-new-products{
-    font-size: 35px;
-    font-family: "Martel Sans", serif;
-    font-weight: 900;
-    color: #4F5254;
-    pointer-events: none;
-    user-select: none;
 }
 .cont-seeall-new-products{
     display: flex;
@@ -346,8 +355,7 @@ main{
     border-bottom-color: #7A0000;
 }
 
-/* Sessão Ofertas */
-
+/* Seção Ofertas */
 .cont-title-off-products{
     display: flex;
     flex-direction: column;
@@ -356,11 +364,97 @@ main{
     width: 20%;
     height: 100%;
 }
-.title-off-products{
-    font-size: 35px;
+
+/* Seção de Marcas */
+.cont-brands-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+}
+.cont-title-brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25%;
+}
+.cont-cards-brands-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+    gap: 10px;
+}
+.card-brands-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    width: 23%;
+    height: 80%;
+}
+
+
+/* Outros Produtos */
+.cont-other-products-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+}
+.cont-title-other-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 15%;
+}
+.cont-card-other-products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+    gap: 10px;
+}
+.card-other-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    width: 23%;
+    height: 80%;
+    gap: 20px;
+}
+.title-other-products{
+    height: 2.8rem;
+    font-size: 32px;
     font-family: "Martel Sans", serif;
     font-weight: 900;
     color: #4F5254;
     pointer-events: none;
     user-select: none;
+    border: 1.3px, solid, transparent;
+}
+#card-camisas-other-products:hover #title-camisas-other-products{
+    border-bottom-color: #4F5254;
+}
+#card-tenis-other-products:hover #title-tenis-other-products{
+    border-bottom-color: #4F5254;
+}
+#card-moletons-other-products:hover #title-moletons-other-products{
+    border-bottom-color: #4F5254;
+}
+#card-chinelos-other-products:hover #title-chinelos-other-products{
+    border-bottom-color: #4F5254;
 }
